@@ -1,0 +1,9 @@
+#!/bin/bash
+module load vasp/5.4.1
+
+cd /afs/crc.nd.edu/user/j/jcrum/zeolite_calcs/FWs/AFV
+cd /afs/crc.nd.edu/user/j/jcrum/zeolite_calcs/FWs/AFV/lattice/LatticeFinal  # this is the vasp directory
+
+export PATH=/afs/crc.nd.edu/user/j/jcrum/anaconda3/bin:$PATH
+runvasp.py     # this is the vasp command
+#end

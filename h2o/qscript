@@ -1,0 +1,7 @@
+#!/bin/bash
+module load vasp
+
+cd /afs/crc.nd.edu/user/j/jcrum/water/h2o
+
+vasp_neb
+#end 

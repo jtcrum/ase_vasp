@@ -1,0 +1,40 @@
+ running on    1 total cores
+ distrk:  each k-point on    1 cores,    1 groups
+ distr:  one band on    1 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.1 05Feb16 (build Apr 25 2018 11:37:45) complex                        
+  
+ POSCAR found type information on POSCAR  H  O 
+ POSCAR found :  2 types and       3 ions
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR found type information on POSCAR  H  O 
+ POSCAR found :  2 types and       3 ions
+ found WAVECAR, reading the header
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ reading WAVECAR
+ the WAVECAR file was read successfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.142266802592E+02   -0.14227E+02   -0.16183E-03    16   0.404E-01    0.329E-02
+DAV:   2    -0.142266518384E+02    0.28421E-04   -0.72758E-05    32   0.757E-02
+   1 F= -.14226652E+02 E0= -.14226652E+02  d E =-.142267E+02
+ BRION: g(F)=  0.200E-03 g(S)=  0.000E+00
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.142265070095E+02    0.17325E-03   -0.26446E-02    16   0.167E+00    0.614E-02
+DAV:   2    -0.142264800200E+02    0.26990E-04   -0.76799E-04    24   0.243E-01
+   2 F= -.14226480E+02 E0= -.14226480E+02  d E =0.171818E-03
+ BRION: g(F)=  0.141E-02 g(S)=  0.000E+00 retain N=  1 mean eig= 0.27
+ eig:   0.271
+ bond charge predicted
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.142266873156E+02   -0.18031E-03   -0.17042E-02    16   0.134E+00    0.435E-02
+DAV:   2    -0.142266786737E+02    0.86419E-05   -0.45042E-04    24   0.188E-01
+   3 F= -.14226679E+02 E0= -.14226679E+02  d E =-.198654E-03
+ BRION: g(F)=  0.896E-06 g(S)=  0.000E+00 retain N=  1 mean eig= 0.28
+ eig:   0.277
+ reached required accuracy - stopping structural energy minimisation
+ writing wavefunctions
